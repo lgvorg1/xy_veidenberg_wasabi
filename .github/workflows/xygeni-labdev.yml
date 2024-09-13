@@ -20,3 +20,4 @@ jobs:
         with:
           xygeni_url: https://apidemo.xygeni.io/deps-doctor-service
           token: ${{ secrets.XYGENI_TOKEN }}
+          gh_token: ${{ secrets.XY_TOKEN_PRO }}
